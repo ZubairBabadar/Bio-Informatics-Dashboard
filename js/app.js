@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('mobile-menu').classList.toggle('hidden');
   });
 
-  // Dark mode toggle (toggle on <html>)
+  // Dark mode toggle
   const htmlRoot = document.getElementById('html-root');
   const darkModeToggle = document.getElementById('dark-mode-toggle');
   darkModeToggle.addEventListener('click', () => {
